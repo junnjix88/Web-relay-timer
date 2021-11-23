@@ -1,0 +1,170 @@
+<html lang='en'>
+	<head>
+		<title>GeekTeches NC800 Timer</title>
+		<meta charset='UFT-8' name='viewport' content='width=device-width, initial=scale=1.0' >
+		<link rel='stylesheet' type='text/css' href='clock2.css'>
+	</head>
+	<body>
+		<div id='main-container'>
+			<h2 id='clock'></h2>
+		</div>
+
+		<div id='alarm-container'>
+			<h3>Set all relay ON Timer</h3>
+				<label>
+					<div>
+					<select id='alarmhrs' ></select>
+					</div>
+				</label>
+				<label>
+					<div>
+					<select id='alarmmins' ></select>
+					</div>
+				</label>
+				<label>
+					<div>
+					<select id='alarmsecs' ></select>
+					</div>
+				</label>
+				<label>
+					<div>
+						<select id="ampm">
+							<option value="AM">AM</option>
+							<option value="PM">PM</option>
+						</select>
+					</div>
+				</label>
+				</div>
+		</div>
+
+		<div id='buttonHolder'>
+			<div>
+				<button  id='setButton' onClick='alarmSet()'>Set Alarm</button>
+			</div>
+
+			<div>
+				<button  id='clearButton' onClick='alarmClear()'>Clear Alarm</button>
+			</div>
+		</div>
+
+        <div id='main-container2'>
+			<h2 id='clock2'></h2>
+		</div>
+
+		<div id='alarm-container2'>
+			<h3>Set all relay OFF timer</h3>
+				<label>
+					<div>
+					<select id='alarmhrs2' ></select>
+					</div>
+				</label>
+				<label>
+					<div>
+					<select id='alarmmins2' ></select>
+					</div>
+				</label>
+				<label>
+					<div>
+					<select id='alarmsecs2' ></select>
+					</div>
+				</label>
+				<label>
+					<div>
+						<select id="ampm2">
+							<option value="AM">AM</option>
+							<option value="PM">PM</option>
+						</select>
+					</div>
+				</label>
+				</div>
+		</div>
+
+		<div id='buttonHolder2'>
+			<div>
+				<button  id='setButton2' onClick='alarmSet2()'>Set Alarm</button>
+			</div>
+
+			<div>
+				<button  id='clearButton2' onClick='alarmClear2()'>Clear Alarm</button>
+			</div>
+		</div>
+
+        <div id='alarm-container3'>
+			<h3>Set relay 1 ON timer</h3>
+				<label>
+					<div>
+					<select id='alarmhrs3' ></select>
+					</div>
+				</label>
+				<label>
+					<div>
+					<select id='alarmmins3' ></select>
+					</div>
+				</label>
+				<label>
+					<div>
+					<select id='alarmsecs3' ></select>
+					</div>
+				</label>
+				<label>
+					<div>
+						<select id="ampm3">
+							<option value="AM">AM</option>
+							<option value="PM">PM</option>
+						</select>
+					</div>
+				</label>
+				</div>
+		</div>
+
+		<div id='buttonHolder3'>
+			<div>
+				<button  id='setButton3' onClick='alarmSet3()'>Set Alarm</button>
+			</div>
+
+			<div>
+				<button  id='clearButton3' onClick='alarmClear3()'>Clear Alarm</button>
+			</div>
+		</div>
+
+        <div id='alarm-container4'>
+			<h3>Set relay 1 OFF timer</h3>
+				<label>
+					<div>
+					<select id='alarmhrs4' ></select>
+					</div>
+				</label>
+				<label>
+					<div>
+					<select id='alarmmins4' ></select>
+					</div>
+				</label>
+				<label>
+					<div>
+					<select id='alarmsecs4' ></select>
+					</div>
+				</label>
+				<label>
+					<div>
+						<select id="ampm4">
+							<option value="AM">AM</option>
+							<option value="PM">PM</option>
+						</select>
+					</div>
+				</label>
+				</div>
+		</div>
+
+		<div id='buttonHolder4'>
+			<div>
+				<button  id='setButton4' onClick='alarmSet4()'>Set Alarm</button>
+			</div>
+
+			<div>
+				<button  id='clearButton4' onClick='alarmClear4()'>Clear Alarm</button>
+			</div>
+		</div>
+
+		<script type='text/javascript' src='clock2.js'></script>
+	</body>
+</html>

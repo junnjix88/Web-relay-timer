@@ -1,0 +1,10 @@
+FronT end files to control GeekTeches NC*** web relay for garden electrical circuit piloting.
+
+*Configure GeekTeches NC*** IP address in clock2.js
+*Run Alarm2.html
+*Set your relay timer.
+
+Modify codes to add more timers.
+
+Enjoy
+
